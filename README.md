@@ -18,6 +18,16 @@ project          = "GCPプロジェクトID"
 credentials_file = "ダウンロードしたサービスアカウントキーファイルのパス"
 ```
 
+## (必要に応じて)ファイルフォーマット
+```
+terraform fmt
+```
+
+## (必要に応じて)バリデート
+```
+terraform validate
+```
+
 ## 2. 初期化
 ```
 terraform init
@@ -28,11 +38,15 @@ terraform init
 terraform apply
 ```
 
-## 4. 削除
+## (必要に応じて)状態確認
+```
+terraform show
+```
+
+## (必要に応じて)削除
 ```
 terraform destroy
 ```
-
 
 # 参考. チュートリアル
 - https://learn.hashicorp.com/tutorials/terraform/google-cloud-platform-build?in=terraform/gcp-get-started
