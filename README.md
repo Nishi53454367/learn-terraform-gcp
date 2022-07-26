@@ -23,14 +23,14 @@ credentials_file = "ダウンロードしたサービスアカウントキーフ
 terraform fmt
 ```
 
-## (必要に応じて)バリデート
-```
-terraform validate
-```
-
 ## 2. 初期化
 ```
 terraform init
+```
+
+## (必要に応じて)バリデート
+```
+terraform validate
 ```
 
 ## 3. 作成
