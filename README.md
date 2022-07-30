@@ -28,6 +28,9 @@ terraform fmt
 terraform init
 ```
 
+### 備忘録
+`.terraform.lock.hcl`をgit管理から外しているので毎回initして使う前提（これがあればinitは不要になる。）
+
 ## (必要に応じて)バリデート
 ```
 terraform validate
