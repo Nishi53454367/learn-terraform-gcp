@@ -46,6 +46,11 @@ terraform apply
 terraform show
 ```
 
+## (必要に応じて)定義した出力変数の内容を表示
+```
+terraform output
+```
+
 ## (必要に応じて)削除
 ```
 terraform destroy
