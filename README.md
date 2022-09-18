@@ -72,3 +72,15 @@ terraform destroy
 - 以下のロールを付与したサービスアカウントを作成してダウンロードしたキー(JSON)を指定
   - サービス アカウント ユーザー
   - Cloud Run 管理者ロール
+
+## gke配下
+### 準備
+- Google Kubernetes Engine APIを有効にしておく
+- 以下のロールを付与したサービスアカウントを作成してダウンロードしたキー(JSON)を指定
+  - サービス アカウント ユーザー
+  - Compute インスタンス管理者（v1）
+  - Kubernetes Engine Cluster 管理者
+
+### クラスタ操作
+- k8s配下・・・k8sリソース直接デプロイのサンプル
+- argocd配下・・・HELM経由でArgoCDをインストールのサンプル
